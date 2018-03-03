@@ -1,0 +1,16 @@
+{"guns":[
+    { "name":"The Grim Reaper", "price":89500, "img":"gun.png", "new": false },
+    { "name":"Duty Calls", "price":50000, "img":"gun.png", "new": false },
+    { "name":"Last Supper", "price":300000, "img":"gun.png", "new": false },
+    { "name":"The Knuckle Sandwich", "price":15000, "img":"gun.png", "new": true },
+
+    { "name":"Bad Touch", "price":11000, "img":"gun.png", "new": false },
+    { "name":"Santa Puf", "price":660000, "img":"gun.png", "new": true },
+    { "name":"Freedom of Speech", "price":30000, "img":"gun.png", "new": false },
+    { "name":"Green Shot", "price":22000, "img":"gun.png", "new": false },
+
+    { "name":"Bang Loud", "price":33000, "img":"gun.png", "new": false },
+    { "name":"Diablo Blast", "price":49000, "img":"gun.png", "new": false },
+    { "name":"Sayonara", "price":660660, "img":"gun.png", "new": true },
+    { "name":"Dead Kiss", "price":500000, "img":"gun.png", "new": false }
+]}

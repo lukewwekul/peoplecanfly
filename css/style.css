@@ -1,0 +1,57 @@
+
+
+body {background-color: #EFEFEF;}/*d7d7d7*/
+
+
+/*******************/
+/***   CLASS   ***/
+.gunCrate {color: white; float: left;  min-width: 23%; min-height: 120px; margin: 1%; background-color: #2b2b2b; position:relative; transition: transform 0.1s ease-in-out;}
+.gunCrate:hover {transform: scale(1.1);}
+
+.gunName {width: 100%; text-align: center;}
+
+.gunNewInfo {width: 100%; height: 20px;}
+.gunNewInfoText {color: black; background-color: #ffcc00;}
+
+.gunImg {width: 100%; height: auto; margin-bottom: 20px;}
+
+.gunShopInfo {text-align: center; min-height: 20%; font-size: 1.5em; position:absolute; bottom:0; width: 100%;}
+.gunOwned {background-color: #ffffff; color: #393939;}
+.gunTooExpensive {background-color: #ff3300; color: #fefefe;}
+.gunInCart {background-color: #ff9900; color: #fefefe;}
+.gunPriceOk {background-color: #757575; color: #fefefe;}
+
+.moneyShape {width: 8px; height: 10px; background-color: #fdc502; border-radius: 20%; margin-left: 12px; box-shadow: 5px 5px 3px 0px rgba(0,0,0,0.3);}
+
+.cartShelf {width: 90%; margin: 20px; clear: both; transition: transform 0.1s ease-in-out;}
+.cartShelf:hover {transform: scale(0.8) rotate(-5deg);}
+
+.cartShelfHalfLeft {width: 60%; float: left;}
+.cartShelfName {font-size: 1.4em;}
+.cartShelfImg {width: 100%; height: auto;}
+.cartShelfHalfRight {width: 40%; float: left; font-size: 1.8em;}
+.cartShelfHr {clear: both;}
+
+
+/*******************/
+/***   DIV ID   ***/
+#divAll {background-color: #d7d7d7; float: left; width: 90%; margin-left: 5%; margin-top: 20px; min-width: 520px;}
+
+#divLeft {background-color: #d7d7d7; float: left; width: 70%; min-width: 300px;}
+
+#divRight {background-color: #545454; float: left; width: 30%; min-width: 100px;}
+
+#divFunds {text-align: right; background-color: #d7d7d7; padding: 10px;}
+#divFundsTitle {font-size: 1.5em;}
+#divFundsAmount {font-size: 3em;}
+
+#divCart {background-color: #545454; padding-bottom: 0; color: white;}
+#cartHwMnItems {font-size: 1.25em; color: white; padding-left: 5px;}
+#cartBuy {background-color: #66cc33; margin: 5px; padding: 5px; text-align: center; font-size: 2em; clear: both; transition: transform 0.1s ease-in-out;}
+#cartBuy:hover {transform: scale(1.2) rotate(5deg);}
+
+/*******************/
+/***   else ID   ***/
+#fundsTitleText {display: block; color: red; font-size: 2.5em;}
+#funds {display: block; color: red;}
+#cartFirstHr{clear: both; margin: 5px 10px;}
